@@ -1,0 +1,29 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "Simple Calculator with Vanilla Javascript.",
+  "main": "/src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanlisboa/simple-calculator.git"
+  },
+  "keywords": [],
+  "author": "Renan Lisboa",
+  "license": "ISC",
+  "homepage": "https://renanlisboa.github.io/simple-calculator",
+  "bugs": {
+    "url": "https://github.com/renanlisboa/simple-calculator/issues"
+  },
+  "homepage": "https://github.com/renanlisboa/simple-calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

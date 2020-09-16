@@ -51,7 +51,7 @@ function createCalculator() {
       try {
         calc = eval(calc);
 
-        if (!calc) {
+        if (calc === NaN ){
           alert('Invalid Operation!');
           return;
         }
